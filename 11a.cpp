@@ -33,13 +33,13 @@ int main() {
   for (int i = 1; i < rows.size(); i++) {
     rows[i] = rows[i - 1] + 1;
     if (e_rows[i]) {
-      rows[i] += 1'000'000;
+      rows[i] += 999'999;
     }
   }
   for (int i = 1; i < cols.size(); i++) {
     cols[i] = cols[i - 1] + 1;
     if (e_cols[i]) {
-      cols[i] += 1'000'000;
+      cols[i] += 999'999;
     }
   }
 
